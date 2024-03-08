@@ -21,6 +21,11 @@
    In cases of Retrival Augmented Generation (RAG) we need to give system sometime to process the files given in the APIs. Hence we need the capacity of keeping async file processing in this case, so that the task is done on the background and the http port is closed for security issues.
    - Message Queing
 2. Speech to Text <br />
+   In this case user will pass a file and the transcription output will be shown once the transcription is done.
+   There will be 3 seperate APIs for this system.
+   1. File Process API - Here the user will put the audio or video file. The output will be the taskID. 
+   2. Status API - Here the user can check the status of the transcription based on the taskID. Options are -> In Progress, COMPLETED, CANCELLED, ERROR
+   3. Output API - Here the user will get the output of the transcription based on the taskID.
 
 
 # Technology Requirements
