@@ -34,6 +34,7 @@
 7. Kubernetes
 8. Promethus
 9. Graphana
+10. Cloud Platform
 
 ## Async System
 1. Rabbit MQ
@@ -45,3 +46,4 @@
 7. Kubernetes
 8. Promethus
 9. Graphana
+10. Cloud Platform
